@@ -11,6 +11,7 @@ EXAMPLE 1
 
 Before	
 CCC[CCC]FCC[CCCCC]CFFFF[CCC]FFFF
+
 After	
 ...[CCC]F..[CCCCC].FFFF[CCC]FFFF
 
@@ -18,6 +19,7 @@ EXAMPLE 2
 
 Before	
 ...[CCC]...[CCCFC].....[CCC]....
+
 After	
 ...[CCC]...[...F.].....[CCC]....
 
@@ -25,6 +27,7 @@ EXAMPLE 3
 
 Before	
 CCC[CCC]FCC[CCCFC]CFFFF[CCC]FFFF
+
 After	
 ...[CCC]F..[...F.].FFFF[CCC]FFFF
 
