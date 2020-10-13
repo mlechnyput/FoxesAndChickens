@@ -9,27 +9,21 @@ Given the initial configuration of foxes and chickens what will the farm look li
 
 EXAMPLE 1
 
-Before	
-CCC[CCC]FCC[CCCCC]CFFFF[CCC]FFFF
+Before	CCC[CCC]FCC[CCCCC]CFFFF[CCC]FFFF
 
-After	  
-...[CCC]F..[CCCCC].FFFF[CCC]FFFF
+After	  ...[CCC]F..[CCCCC].FFFF[CCC]FFFF
 
 EXAMPLE 2
 
-Before	
-...[CCC]...[CCCFC].....[CCC]....
+Before	...[CCC]...[CCCFC].....[CCC]....
 
-After	  
-...[CCC]...[...F.].....[CCC]....
+After	  ...[CCC]...[...F.].....[CCC]....
 
 EXAMPLE 3
 
-Before	
-CCC[CCC]FCC[CCCFC]CFFFF[CCC]FFFF
+Before	CCC[CCC]FCC[CCCFC]CFFFF[CCC]FFFF
 
-After	  
-...[CCC]F..[...F.].FFFF[CCC]FFFF
+After	  ...[CCC]F..[...F.].FFFF[CCC]FFFF
 
 Notes
 Anything not a fox, a chicken, or a cage is just dirt .
