@@ -18,13 +18,14 @@ public class Main {
         String first, second, third;
         int indexStart = string.indexOf('[');
         int indexEnd = string.indexOf(']');
-        if (indexStart==-1){
+        if (indexStart == -1) {
             System.out.print(string);
-            return;}
-        first=string.substring(0,indexStart);
-        second=string.substring(indexStart+1,indexEnd);
-        third=string.substring(indexEnd+1);
-        System.out.print(yammy(first)+"["+yammy(second)+"] ");
+            return;
+        }
+        first = string.substring(0, indexStart);
+        second = string.substring(indexStart + 1, indexEnd);
+        third = string.substring(indexEnd + 1);
+        System.out.print(missing(first) + "[" + yammy(second) + "]");
         meth(third);
     }
 
@@ -33,9 +34,12 @@ public class Main {
         else if (strIn.contains("F")) {
             return strIn.replace('C', '.');
         } else return strIn;
-
-
     }
 
+    public static String missing(String strIn) {
+        if (strIn.equals("")) return "";
+        return strIn.replace('C', '.');
+
+    }
 
 }
