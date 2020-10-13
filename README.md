@@ -1,5 +1,7 @@
 # FoxesAndChickens from Codewars
 
+https://www.codewars.com/kata/591144f42e6009675300001f
+
 Old MacDingle had a farm, he had a free-range chicken farm. But Old MacDingle also had a fox problem.
 Foxes F eat chickens C. At night the only guaranteed "safe" chickens are in their cages [] (unless a fox has got into the cage with them!)
 
